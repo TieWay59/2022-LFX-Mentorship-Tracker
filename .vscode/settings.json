@@ -1,0 +1,9 @@
+{
+    "grammarly.selectors": [
+        {
+            "language": "markdown",
+            "scheme": "file",
+            "pattern": "draft/week-05-email-Dirkjan.md"
+        }
+    ]
+}
