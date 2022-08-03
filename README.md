@@ -1,10 +1,24 @@
-# timeline
+# 2022 LFX Mentorship Tracker
 
-[Rust 开发者看过来！CNCF LFX Mentorship 远程带薪实习机会来啦 (qq.com)](https://mp.weixin.qq.com/s/HT_J7CMeNndOXo9RH5_5ow)
+## Mentors
 
-[Provide a wasm-compatible Rust TLS implementation · Issue #1430 · WasmEdge/WasmEdge (github.com)](https://github.com/WasmEdge/WasmEdge/issues/1430)
+- [@juntao](https://github.com/juntao)
+- [@sonder-joker](https://github.com/sonder-joker)
 
-[Program Schedule & Timelines - Linux Foundation Documentation](https://docs.linuxfoundation.org/lfx/mentorship/mentorship-program-timelines)
+## Objectives
+
+- [x] Clone the Rustls
+- [ ] Find the commonality between WASI-crypto and ring and try to design wasi_crypto_ringified that simulates ring.
+  - [ ] List out the APIs that I can use directly.
+- ~~ I will just open up a new issue to draw rustls folk's attention.~~
+  - [ ] Share my ideas with Dirkjan. Since he replied to my email, I'll try to contact him in priority seeking more advice. Including the insights, I received above.
+  - [ ] Refine my design if any new ideas come out.
+- [x] Figure out how to test HTTPS in WasmEdge or how we wish it to be like. (test in WASI-crypto will be a nice example)
+
+## Application Tasks
+
+- [x] 申请表 [入口](https://mentorship.lfx.linuxfoundation.org/project/fca1338f-5be0-41e6-a499-b44e2e722096)
+- [x] 申请函与简历 [Mentorship (linuxfoundation.org)](https://mentorship.lfx.linuxfoundation.org/#my-tasks)
 
 ## Timeline
 
@@ -20,12 +34,7 @@ Mentorship duration - three months (12 weeks - full-time schedule)
 - July 15 (End of Week 6): Midterm mentee evaluations and first stipend payments
 - August 31 (End of Week 12): Final mentee evaluations and mentee feedback/blog submission due, second and final stipend payment approvals
 
-src: [mentoring/lfx-mentorship/2022/02-Summer at main · cncf/mentoring (github.com)](https://github.com/cncf/mentoring/tree/main/lfx-mentorship/2022/02-Summer#timeline)
-
-## Before Application Due
-
-- [x] 递交申请表, [入口](https://mentorship.lfx.linuxfoundation.org/project/fca1338f-5be0-41e6-a499-b44e2e722096)。
-- [x] 提交申请函与简历，[Mentorship (linuxfoundation.org)](https://mentorship.lfx.linuxfoundation.org/#my-tasks)。
+src: [mentoring/LFX-Mentorship/2022/02-Summer](https://github.com/cncf/mentoring/tree/main/lfx-mentorship/2022/02-Summer#timeline)
 
 ## Schedule Table
 
@@ -48,3 +57,9 @@ src: [mentoring/lfx-mentorship/2022/02-Summer at main · cncf/mentoring (github.
 | week 11 `08-15 >> 08-21`                            |                            |
 | week 12 `08-22 >> 08-28`                            |                            |
 | week 13 `08-29 >> 08-31` August 31 (End of Week 12) | Final mentee evaluations   |
+
+## Links
+
+- [2022 Article in weixin](https://mp.weixin.qq.com/s/HT_J7CMeNndOXo9RH5_5ow)
+- [Program Schedule & Timelines - Linux Foundation Documentation](https://docs.linuxfoundation.org/lfx/mentorship/mentorship-program-timelines)
+- [Provide a wasm-compatible Rust TLS implementation · Issue #1430 · WasmEdge/WasmEdge (github.com)](https://github.com/WasmEdge/WasmEdge/issues/1430)
